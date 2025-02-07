@@ -1,10 +1,11 @@
 import Navbar from "./components/common/Navbar";
-import Drop from "./components/common/Drop";
+import Notifi from "./components/common/Notifi";
 
 export default function Home() {
   return (
     <>
       <Navbar />
+      <Notifi />
     </>
   );
 }
