@@ -1,11 +1,9 @@
-import { Adamina } from "next/font/google";
-import Navbar from "./components/common/Navbar";
-import Admin from "./components/common/Admin";
+import Dashboard from "../app/components/home/Dashboard.jsx";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Dashboard />
     </>
   );
 }
