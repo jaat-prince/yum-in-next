@@ -1,4 +1,4 @@
-import { EarthIcon } from "./Icon";
+import { DashIcon, DotIcon, EarthIcon, ManageIcon, OrderIcon } from "./Icon";
 
 export const languageOptions = [
   { code: "en", label: "English", flagSrc: <EarthIcon /> },
@@ -43,5 +43,15 @@ export const boardData = [
     subtitle: "Successful Orders",
     text: "8% Decrease",
     class: "text-[#EF4444]",
+  },
+];
+export const sideData = [
+  {
+    icon: <DashIcon />,
+    text: "Dashboard",
+  },
+  {
+    icon: <ManageIcon />,
+    text: "Manage",
   },
 ];

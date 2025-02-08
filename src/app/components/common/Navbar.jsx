@@ -7,7 +7,7 @@ import Admin from "./Admin";
 function Navbar() {
   return (
     <>
-      <div className="flex justify-between items-center border-b border-b-[#e2e8f0] py-3 px-6">
+      <div className="flex justify-between items-center border-b border-b-[#e2e8f0] py-3 px-6 h-[72px]">
         <label className="flex gap-3 items-center text-[#475569] py-[10px] px-[16px] border-[#e2e8f0] border rounded-[50px] w-full max-w-[256px] bg-[#f8fafc] focus-within:border-[#f58220]">
           <SerachIcon />
           <input
