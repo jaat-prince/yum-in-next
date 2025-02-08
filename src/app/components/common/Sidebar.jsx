@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { sideData } from "../Helper/Helper";
+import Linker from "../common/Linker";
 
 function Sidebar() {
   return (
@@ -29,13 +30,8 @@ function Sidebar() {
         <ul>
           {sideData.map((item, index) => {
             return (
-              <li>
-                <Link
-                  href="/"
-                  className="text-[#334155] text-sm py-3 px-4 flex items-center gap-3.5 focus-within:bg-[#f58220]/10 rounded-md focus-within:text-[#f58220] hover:bg-gray-100 cursor-pointer"
-                >
-                  {item.icon} {item.text}
-                </Link>
+              <li key={index}>
+                <Linker icon={item.icon} text={item.text} />
               </li>
             );
           })}

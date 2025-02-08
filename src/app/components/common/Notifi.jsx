@@ -8,7 +8,7 @@ function Notifi() {
 
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
-    <div className="relative w-full max-w-[40px] ">
+    <div className="relative w-full max-w-[40px]">
       <button
         className="w-[40px] h-[40px] bg-[#e5e7eb] rounded-full flex justify-center items-center text-[#475569] focus-within:text-[#f58220] relative"
         onClick={toggleDropdown}
