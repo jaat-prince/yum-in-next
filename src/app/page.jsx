@@ -1,11 +1,11 @@
+import { Adamina } from "next/font/google";
 import Navbar from "./components/common/Navbar";
-import Notifi from "./components/common/Notifi";
+import Admin from "./components/common/Admin";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Notifi />
     </>
   );
 }

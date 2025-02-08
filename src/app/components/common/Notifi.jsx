@@ -8,11 +8,14 @@ function Notifi() {
 
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
-    <div className="relative w-full max-w-[40px] ml-[400px]">
+    <div className="relative w-full max-w-[40px] ">
       <button
-        className="w-[40px] h-[40px] bg-[#e5e7eb] rounded-full flex justify-center items-center text-[#475569] focus-within:text-[#f58220]"
+        className="w-[40px] h-[40px] bg-[#e5e7eb] rounded-full flex justify-center items-center text-[#475569] focus-within:text-[#f58220] relative"
         onClick={toggleDropdown}
       >
+        <span class="absolute top-[-1px] right-[4px] badge rounded-full bg-[#F97316] text-[#fff] text-xs font-normal w-[16px] h-[16px]">
+          2
+        </span>
         <NotiIcon />
       </button>
       {isOpen && (
