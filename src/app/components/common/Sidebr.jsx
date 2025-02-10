@@ -6,12 +6,22 @@ import { arrowData, sideData } from "../Helper/Helper";
 import Accordion from "./Accordion";
 import { DotIcon, ExistIcon, LighIcon, ProIcon } from "../Helper/Icon";
 
-function Sidebar() {
+function Sidebr({ isOpen, toggleSidebar }) {
   return (
-    <>
-      <div className="w-[259px] border-r border-r-[#e2e8f0] h-screen overflow-y-auto no-scrollbar max-lg:hidden">
+    <div className="flex">
+      <div
+        className={`fixed inset-0 bg-[black] bg-opacity-50 z-50 transition-transform transform w-[100% - 259px] ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+        onClick={toggleSidebar}
+      ></div>
+      <div
+        className={`w-[259px] border-r border-r-[#e2e8f0] h-screen overflow-y-auto no-scrollbar bg-[white] z-[100] fixed top-0 left-0 ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
         <div class="sticky top-0 flex h-18 items-center justify-center border-b border-dashed border-default-200 px-6 py-3 h-[72px]">
-          <Link href="/" className="">
+          <Link href="/" className="" onClick={toggleSidebar}>
             <Image
               src="/assets/png/yum-logo.png"
               height={40}
@@ -73,8 +83,8 @@ function Sidebar() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
-export default Sidebar;
+export default Sidebr;

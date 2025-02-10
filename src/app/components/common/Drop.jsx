@@ -32,7 +32,7 @@ const LanguageDropdown = () => {
   };
 
   return (
-    <div className="w-[40px] h-[40px] bg-[#e5e7eb] rounded-full inline-flex">
+    <div className="w-[40px] h-[40px] bg-[#e5e7eb] rounded-full inline-flex max-md:hidden">
       <div className="relative flex">
         <button
           onClick={toggleDropdown}
