@@ -5,7 +5,7 @@ import React from "react";
 import { arrowData, sideData } from "../Helper/Helper";
 import Linker from "../common/Linker";
 import Accordion from "./Accordion";
-import { DotIcon } from "../Helper/Icon";
+import { DotIcon, ExistIcon, ProIcon } from "../Helper/Icon";
 
 function Sidebar() {
   return (
@@ -42,6 +42,22 @@ function Sidebar() {
             </>
           ))}
         </ul>
+      </div>
+      <div className="px-4 gap-1.5 flex flex-col">
+        <Link
+          className="flex items-center gap-x-3.5 rounded-md px-4 py-3 text-sm text-[#1E293B] font-normal hover:bg-gray-100"
+          href="/"
+        >
+          <ProIcon />
+          Profile
+        </Link>
+        <Link
+          className="flex items-center gap-x-3.5 rounded-md px-4 py-3 text-sm text-[#EF4444] hover:bg-[#EF4444]/10"
+          href="/"
+        >
+          <ExistIcon />
+          Log Out
+        </Link>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { ExistIcon, HomeIcon, LandingIcon, ProfileIcon } from "../Helper/Icon";
 import Image from "next/image";
+import Link from "next/link";
 
 function Admin() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,35 +30,35 @@ function Admin() {
 
       {isOpen && (
         <div className="min-w-[192px] absolute right-3 w-40 bg-white shadow-lg rounded-md border p-2">
-          <a
+          <Link
             className="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-[#1E293B] font-normal hover:bg-gray-100"
             href="/"
           >
             <ProfileIcon />
             My Profile
-          </a>
-          <a
+          </Link>
+          <Link
             className="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-[#1E293B] font-normal hover:bg-gray-100"
             href="/"
           >
             <LandingIcon />
             Landing
-          </a>
-          <a
+          </Link>
+          <Link
             className="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-[#1E293B] font-normal hover:bg-gray-100"
             href="/"
           >
             <HomeIcon />
             Home
-          </a>
+          </Link>
           <hr className="-mx-2 my-2 border-default-200" />
-          <a
+          <Link
             className="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-[#EF4444] hover:bg-[#EF4444]/10"
             href="/"
           >
             <ExistIcon />
             Log Out
-          </a>
+          </Link>
         </div>
       )}
     </div>
