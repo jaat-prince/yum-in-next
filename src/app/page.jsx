@@ -1,4 +1,5 @@
 import Dashboard from "../app/components/home/Dashboard.jsx";
+import Accordion from "../app/components/common/Accordion.jsx";
 
 export default function Home() {
   return (

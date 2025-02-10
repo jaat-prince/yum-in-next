@@ -1,4 +1,15 @@
-import { DashIcon, DotIcon, EarthIcon, ManageIcon, OrderIcon } from "./Icon";
+import {
+  CustIcon,
+  DashIcon,
+  DishIcon,
+  DotIcon,
+  EarthIcon,
+  ManageIcon,
+  OrderIcon,
+  RestIcon,
+  SelIcon,
+  WalletIcon,
+} from "./Icon";
 
 export const languageOptions = [
   { code: "en", label: "English", flagSrc: <EarthIcon /> },
@@ -45,13 +56,64 @@ export const boardData = [
     class: "text-[#EF4444]",
   },
 ];
-export const sideData = [
+
+export const arrowData = [
   {
     icon: <DashIcon />,
-    text: "Dashboard",
+    class: "hidden",
+    title: "Dashboard",
   },
   {
     icon: <ManageIcon />,
-    text: "Manage",
+    class: "hidden",
+    title: "Manage",
+  },
+  {
+    icon: <OrderIcon />,
+    title: "Orders",
+    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
+    text: "order list",
+    text: "order Details",
+  },
+  {
+    icon: <CustIcon />,
+    title: "Customers",
+    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
+    text: "Customers List",
+    text: "Customer Details",
+    text: "Add Customer",
+    text: "Edit Customer",
+  },
+  {
+    icon: <RestIcon />,
+    title: "Restaurants",
+    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
+    text: "Restaurants List",
+    text: "Restaurant Details",
+    text: "Add Restaurant",
+    text: "Edit Restaurant",
+  },
+  {
+    icon: <DishIcon />,
+    title: "Dishes",
+    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
+    text: "Dishes List",
+    text: "Dish Details",
+    text: "Add Dish",
+    text: "Edit Dish",
+  },
+  {
+    icon: <SelIcon />,
+    title: "Sellers",
+    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
+    text: "Sellers List",
+    text: "Seller Details",
+    text: "Add Seller",
+    text: "Edit Seller",
+  },
+  {
+    icon: <WalletIcon />,
+    class: "hidden",
+    title: "Wallet",
   },
 ];

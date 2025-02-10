@@ -2,8 +2,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { sideData } from "../Helper/Helper";
+import { arrowData, sideData } from "../Helper/Helper";
 import Linker from "../common/Linker";
+import Accordion from "./Accordion";
+import { DotIcon } from "../Helper/Icon";
 
 function Sidebar() {
   return (
@@ -27,14 +29,18 @@ function Sidebar() {
         </Link>
       </div>
       <div className="p-4">
-        <ul>
-          {sideData.map((item, index) => {
-            return (
-              <li key={index}>
-                <Linker icon={item.icon} text={item.text} />
-              </li>
-            );
-          })}
+        <ul className="gap-1.5 flex flex-col">
+          {arrowData.map((item, index) => (
+            <>
+              <Accordion
+                key={index}
+                classicon={item.class}
+                icon={item.icon}
+                title={item.title}
+                text={item.text}
+              />
+            </>
+          ))}
         </ul>
       </div>
     </div>
