@@ -61,16 +61,6 @@ export const boardData = [
 
 export const arrowData = [
   {
-    icon: <DashIcon />,
-    class: "hidden",
-    title: "Dashboard",
-  },
-  {
-    icon: <ManageIcon />,
-    class: "hidden",
-    title: "Manage",
-  },
-  {
     icon: <OrderIcon />,
     title: "Orders",
     // phara: [{ text: "Orders List" }, { text: "Order Details" }],
@@ -112,11 +102,6 @@ export const arrowData = [
     text: "Seller Details",
     text: "Add Seller",
     text: "Edit Seller",
-  },
-  {
-    icon: <WalletIcon />,
-    class: "hidden",
-    title: "Wallet",
   },
 ];
 export const cateData = [
