@@ -18,7 +18,7 @@ import {
 function Sidebar() {
   return (
     <>
-      <div className="w-[259px] border-r border-r-[#e2e8f0] h-screen overflow-hidden no-scrollbar max-lg:hidden">
+      <div className="w-[259px] border-r border-r-[#e2e8f0] overflow-y-auto no-scrollbar max-lg:hidden h-screen">
         <div class="sticky top-0 flex h-18 items-center justify-center border-b border-dashed border-default-200 px-6 py-3 h-[72px]">
           <Link href="/" className="">
             <Image

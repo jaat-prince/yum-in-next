@@ -4,7 +4,16 @@ import Link from "next/link";
 import React from "react";
 import { arrowData } from "../Helper/Helper";
 import Accordion from "./Accordion";
-import { DotIcon, ExistIcon, LighIcon, ProIcon } from "../Helper/Icon";
+import {
+  DashIcon,
+  DotIcon,
+  ExistIcon,
+  LighIcon,
+  ManageIcon,
+  ProIcon,
+  WalletIcon,
+} from "../Helper/Icon";
+import Linker from "./Linker";
 
 function Sidebr({ isOpen, toggleSidebar }) {
   return (
@@ -34,6 +43,8 @@ function Sidebr({ isOpen, toggleSidebar }) {
         <div className="justify-between flex flex-col h-[88%]">
           <div className="p-4 h-[60%] overflow-scroll no-scrollbar">
             <ul className="gap-1.5 flex flex-col">
+              <Linker icon={<DashIcon />} text={"Dashboard"} />
+              <Linker icon={<ManageIcon />} text={"Manage"} />
               {arrowData.map((item, index) => (
                 <>
                   <Accordion
@@ -45,6 +56,7 @@ function Sidebr({ isOpen, toggleSidebar }) {
                   />
                 </>
               ))}
+              <Linker icon={<WalletIcon />} text={"Wallet"} />
             </ul>
           </div>
           <div className="mt-5">
