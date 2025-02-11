@@ -19,7 +19,7 @@ function Table() {
                   Sort : Ascending
                   <DownIcon />
                 </button>
-                <div class="z-20 mt-4 min-w-[200px] rounded-lg border border-default-100 bg-white p-1.5 opacity-0 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition-[opacity,margin] hs-dropdown-open:opacity-100 dark:bg-default-50 hidden">
+                <div class="mt-4 min-w-[200px] rounded-lg border border-default-100 bg-white p-1.5 opacity-0 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition-[opacity,margin] hs-dropdown-open:opacity-100 dark:bg-default-50 hidden">
                   <ul class="flex flex-col gap-1">
                     <li>
                       <span class="flex items-center gap-3 rounded px-3 py-2 font-medium transition-all hover:bg-default-100 hover:text-[#334155] bg-default-100 text-[#334155]">
@@ -42,7 +42,7 @@ function Table() {
                   Status : All
                   <DownIcon />
                 </button>
-                <div class="hs-dropdown-menu z-20 mt-4 hidden min-w-[200px] rounded-lg border border-default-100 bg-white p-1.5 opacity-0 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition-[opacity,margin] hs-dropdown-open:opacity-100 dark:bg-default-50">
+                <div class="hs-dropdown-menu mt-4 hidden min-w-[200px] rounded-lg border border-default-100 bg-white p-1.5 opacity-0 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition-[opacity,margin] hs-dropdown-open:opacity-100 dark:bg-default-50">
                   <ul class="flex flex-col gap-1">
                     <li>
                       <span class="flex items-center gap-3 rounded px-3 py-2 font-medium transition-all hover:bg-default-100 hover:text-[#334155] bg-default-100 text-[#334155]">
