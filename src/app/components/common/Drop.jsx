@@ -62,7 +62,7 @@ const LanguageDropdown = () => {
                               width={24}
                               height={16}
                               alt={`${item.label} flag`}
-                              className="w-full max-w-[24px]"
+                              className="w-full"
                             />
                           </span>
                           <span className="text-[14px] font-normal text-[#1E293B]">
