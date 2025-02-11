@@ -1,3 +1,4 @@
+import { title } from "process";
 import {
   CustIcon,
   DashIcon,
@@ -115,5 +116,40 @@ export const arrowData = [
     icon: <WalletIcon />,
     class: "hidden",
     title: "Wallet",
+  },
+];
+export const cateData = [
+  {
+    img: "/assets/svg/coffee.svg",
+    text: "Coffee",
+  },
+  {
+    img: "/assets/svg/burger.svg",
+    text: "Burger",
+  },
+  {
+    img: "/assets/svg/noodles.svg",
+    text: "Noodles",
+  },
+  {
+    img: "/assets/svg/pizza.svg",
+    text: "Pizza",
+  },
+];
+export const sellData = [
+  {
+    img: "/assets/png/pizza-it.png",
+    title: "Italian Pizza",
+    text: "$39.5",
+  },
+  {
+    img: "/assets/png/burger-vg.png",
+    title: "Veg Burger",
+    text: "$483",
+  },
+  {
+    img: "/assets/png/noodles-sp.png",
+    title: "Spaghetti",
+    text: "$23",
   },
 ];

@@ -29,11 +29,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex">
-          <Sidebar />
-          <div className="w-full">
+        <div className="flex overflow-hidden">
+          <div className="">
+            <Sidebar />
+          </div>
+          <div className="w-full lg:w-[calc(100%-259px)]">
             <Navbar />
-            {children}
+
+            <div className=" !overflow-y-scroll no-scrollbar">{children}</div>
           </div>
         </div>
       </body>
