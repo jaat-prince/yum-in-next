@@ -33,7 +33,7 @@ const LanguageDropdown = () => {
 
   return (
     <div className="min-w-[40px] min-h-[40px] bg-[#e5e7eb] rounded-full inline-flex max-md:hidden">
-      <div className="relative flex">
+      <div className="relative flex z-50">
         <button
           onClick={toggleDropdown}
           className="focus-within:text-[#f58220] text-[#475569] p-2"

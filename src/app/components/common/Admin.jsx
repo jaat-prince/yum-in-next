@@ -9,7 +9,7 @@ function Admin() {
 
   const toggleDropdown = () => setIsOpen(!isOpen);
   return (
-    <div className="relative w-full max-w-[140px]">
+    <div className="relative w-full max-w-[140px] z-50">
       <button
         type="button"
         className="inline-flex flex-shrink-0 items-center justify-center gap-2 rounded-full text-xs font-medium text-default-700 transition-all"
