@@ -6,9 +6,9 @@ import Table from "../app/components/home/Table.jsx";
 export default function Home() {
   return (
     <>
-      <div className="w-full p-4 overflow-y-scroll no-scrollbar">
+      <div className="w-full p-4 !overflow-y-scroll no-scrollbar h-full">
         <Dashboard />
-        <div className="grid grid-cols-1 2xl:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 2xl:grid-cols-2 gap-6 mb-16">
           <div>
             <Cate />
             <Best />

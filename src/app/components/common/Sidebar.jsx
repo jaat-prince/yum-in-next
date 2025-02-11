@@ -64,7 +64,7 @@ function Sidebar() {
               </Link>
               <Link
                 className="flex items-center gap-x-3.5 rounded-md px-4 py-3 text-sm text-[#EF4444] hover:bg-[#EF4444]/10"
-                href="/"
+                href=""
               >
                 <ExistIcon />
                 Log Out
