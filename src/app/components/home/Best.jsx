@@ -7,7 +7,9 @@ function Best() {
   return (
     <div className="mt-6">
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-semibold text-[#020617]">Category</h1>
+        <h1 className="text-xl font-semibold text-[#020617]">
+          Best Selling Products
+        </h1>
         <p className="text-sm font-medium text-[#F58220] transition-all ease-in-out duration-500 gap-2 flex items-center cursor-pointer">
           View all
           <span>
