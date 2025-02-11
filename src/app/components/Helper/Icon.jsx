@@ -1,4 +1,4 @@
-export const SerachIcon = () => {
+export const SearchIcon = () => {
   return (
     <svg
       stroke="currentColor"

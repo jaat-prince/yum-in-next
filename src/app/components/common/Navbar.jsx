@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { EarthIcon, MenuIcon, SerachIcon, ZoomIcon } from "../Helper/Icon";
+import { EarthIcon, MenuIcon, SearchIcon, ZoomIcon } from "../Helper/Icon";
 import Drop from "../common/Drop";
 import Notifi from "./Notifi";
 import Admin from "./Admin";
@@ -32,7 +32,7 @@ function Navbar() {
           </Link>
         </div>
         <label className="flex gap-3 items-center text-[#475569] py-[10px] px-[16px] border-[#e2e8f0] border rounded-[50px] w-full max-w-[256px] bg-[#f8fafc] focus-within:border-[#f58220] max-lg:hidden">
-          <SerachIcon />
+          <SearchIcon />
           <input
             type="search"
             placeholder="Search for items..."
