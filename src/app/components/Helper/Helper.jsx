@@ -188,4 +188,20 @@ export const tableData = [
     text: "(1055)",
     price: "$333.31",
   },
+  {
+    title: "#9F36CA",
+    img: "/assets/png/noodles-sp.png",
+    name: "Spaghetti",
+    rate: <StarIcon />,
+    text: "(6667)",
+    price: "$67.99",
+  },
+  {
+    title: "#C0E4F7",
+    img: "/assets/png/pizza-it.png",
+    name: "Italian Pizza",
+    rate: <StarIcon />,
+    text: "(231)",
+    price: "$359.69",
+  },
 ];

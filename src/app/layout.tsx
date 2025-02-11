@@ -32,7 +32,7 @@ export default function RootLayout({
         <div className="flex h-screen">
           <Sidebar />
 
-          <div className="w-full lg:w-[calc(100%-259px)] !overflow-y-scroll">
+          <div className="w-full lg:w-[calc(100%-259px)] !overflow-y-scroll no-scrollbar">
             <Navbar />
             {children}
           </div>
