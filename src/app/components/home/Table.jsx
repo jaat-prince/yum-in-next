@@ -6,7 +6,7 @@ import Image from "next/image";
 function Table() {
   return (
     <div>
-      <div class="rounded-lg border border-default-200 max-2xl:mt-10">
+      <div class="rounded-lg border border-default-200 mt-10 2xl:mt-6">
         <div class="overflow-hidden p-6">
           <div class="flex flex-wrap items-center gap-4 sm:justify-between lg:flex-nowrap">
             <h2 class="text-xl font-semibold text-[#1e293b]">Recent Orders</h2>
