@@ -35,7 +35,6 @@ export default function RootLayout({
           </div>
           <div className="w-full lg:w-[calc(100%-259px)]">
             <Navbar />
-
             <div className=" !overflow-y-scroll no-scrollbar">{children}</div>
           </div>
         </div>

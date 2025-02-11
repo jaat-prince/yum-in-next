@@ -9,6 +9,7 @@ import {
   OrderIcon,
   RestIcon,
   SelIcon,
+  StarIcon,
   WalletIcon,
 } from "./Icon";
 
@@ -151,5 +152,55 @@ export const sellData = [
     img: "/assets/png/noodles-sp.png",
     title: "Spaghetti",
     text: "$23",
+  },
+];
+export const tableData = [
+  {
+    title: "#C0E4F7",
+    img: "/assets/png/pizza-it.png",
+    name: "Italian Pizza",
+    rate: <StarIcon />,
+    text: "(231)",
+    price: "$359.69",
+  },
+  {
+    title: "#12939F",
+    img: "/assets/png/burger-vg.png",
+    name: "Veg Burger",
+    rate: <StarIcon />,
+    text: "(523)",
+    price: "$350.3",
+  },
+  {
+    title: "#9F36CA",
+    img: "/assets/png/noodles-sp.png",
+    name: "Spaghetti",
+    rate: <StarIcon />,
+    text: "(6667)",
+    price: "$67.99",
+  },
+  {
+    title: "#A657A0",
+    img: "/assets/png/salad.png",
+    name: "Mix Salad",
+    rate: <StarIcon />,
+    text: "(4325)",
+    price: "$21.49",
+  },
+  {
+    title: "#8CD211",
+    img: "/assets/png/red.png",
+    name: "Red Velvet Cake",
+    rate: <StarIcon />,
+    text: "(6667)",
+    price: "$463.61",
+  },
+  {
+    title: "#5191A8",
+    img: "/assets/png/tea.png",
+    name: "Espresso Coffee",
+    rate: <StarIcon />,
+    text: "(1055)",
+    price: "$333.31",
   },
 ];
