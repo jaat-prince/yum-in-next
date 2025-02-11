@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { arrowData, sideData } from "../Helper/Helper";
+import { arrowData } from "../Helper/Helper";
 import Accordion from "./Accordion";
 import { DotIcon, ExistIcon, LighIcon, ProIcon } from "../Helper/Icon";
 
