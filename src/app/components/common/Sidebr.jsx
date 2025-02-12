@@ -46,15 +46,13 @@ function Sidebr({ isOpen, toggleSidebar }) {
               <Linker icon={<DashIcon />} text={"Dashboard"} />
               <Linker icon={<ManageIcon />} text={"Manage"} />
               {arrowData.map((item, index) => (
-                <>
-                  <Accordion
-                    key={index}
-                    classicon={item.class}
-                    icon={item.icon}
-                    title={item.title}
-                    text={item.text}
-                  />
-                </>
+                <Accordion
+                  key={index}
+                  classicon={item.class}
+                  icon={item.icon}
+                  title={item.title}
+                  text={item.text}
+                />
               ))}
               <Linker icon={<WalletIcon />} text={"Wallet"} />
             </ul>
