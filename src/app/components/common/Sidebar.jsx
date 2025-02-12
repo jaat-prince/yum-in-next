@@ -14,6 +14,7 @@ import {
   ProIcon,
   WalletIcon,
 } from "../Helper/Icon";
+import Order from "../common/Order";
 
 function Sidebar() {
   return (
@@ -35,6 +36,7 @@ function Sidebar() {
             <ul className="gap-1.5 flex flex-col">
               <Linker icon={<DashIcon />} text={"Dashboard"} />
               <Linker icon={<ManageIcon />} text={"Manage"} />
+              <Order />
               {arrowData.map((item, index) => (
                 <Accordion
                   key={index}
@@ -44,6 +46,7 @@ function Sidebar() {
                   text={item.text}
                 />
               ))}
+
               <Linker icon={<WalletIcon />} text={"Wallet"} />
             </ul>
           </div>

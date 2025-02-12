@@ -60,13 +60,13 @@ export const boardData = [
 ];
 
 export const arrowData = [
-  {
-    icon: <OrderIcon />,
-    title: "Orders",
-    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
-    text: "order list",
-    text: "order Details",
-  },
+  // {
+  //   icon: <OrderIcon />,
+  //   title: "Orders",
+  //   // phara: [{ text: "Orders List" }, { text: "Order Details" }],
+  //   text: "order list",
+  //   text: "order Details",
+  // },
   {
     icon: <CustIcon />,
     title: "Customers",
@@ -204,4 +204,10 @@ export const tableData = [
     text: "(231)",
     price: "$359.69",
   },
+];
+export const orderData = [
+  {
+    text: "order list",
+  },
+  { text: "order Details" },
 ];
