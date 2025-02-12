@@ -27,7 +27,7 @@ function Notifi() {
             </a>
           </div>
           <div className="border-y border-dashed border-default-200 p-4">
-            <div>
+            <div className="overflow-y-auto h-[270px] no-scrollbar">
               <div>
                 <div>
                   <div className="p-3">
