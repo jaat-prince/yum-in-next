@@ -7,7 +7,7 @@ function Dashboard() {
   return (
     <div>
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-semibold text-[#1E293B]">Dashboard</h1>
+        <h1 className="text-xl font-medium text-[#1E293B]">Dashboard</h1>
         <p className="text-sm font-normal text-[#1E293B] hover:text-[#F58220] transition-all ease-in-out duration-500 gap-2 flex items-center cursor-pointer">
           Admin
           <span>
