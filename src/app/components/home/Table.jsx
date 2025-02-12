@@ -70,7 +70,7 @@ function Table() {
             </div>
           </div>
         </div>
-        <div class="relative overflow-x-auto h-[500px] overflow-y-scroll no-scrollbar">
+        <div class="relative overflow-x-auto h-[568px] overflow-y-scroll no-scrollbar">
           <div class="inline-block min-w-full align-middle">
             <div class="overflow-hidden">
               <table class="w-full divide-y divide-default-200">
