@@ -90,7 +90,7 @@ function Table() {
                 <tbody class="divide-y divide-default-200">
                   {tableData.map((item, index) => (
                     <tr key={index}>
-                      <td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-[#64748b] max-sm:w-[200px] hover:text-primary-500">
+                      <td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-[#64748b] max-sm:w-[200px] hover:text-primary-500 hover:text-[#f58220] transition-all ease-in-out duration-300">
                         <a href="/">{item.title}</a>
                       </td>
                       <td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-text-[#64748b] max-sm:w-[300px]">
