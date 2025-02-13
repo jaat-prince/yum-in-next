@@ -60,48 +60,50 @@ export const boardData = [
 ];
 
 export const arrowData = [
-  // {
-  //   icon: <OrderIcon />,
-  //   title: "Orders",
-  //   // phara: [{ text: "Orders List" }, { text: "Order Details" }],
-  //   text: "order list",
-  //   text: "order Details",
-  // },
+  {
+    icon: <OrderIcon />,
+    title: "Orders",
+    phara: [{ text: "Orders List" }, { text: "Order Details" }],
+  },
   {
     icon: <CustIcon />,
     title: "Customers",
-    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
-    text: "Customers List",
-    text: "Customer Details",
-    text: "Add Customer",
-    text: "Edit Customer",
+    phara: [
+      { text: "Customers List" },
+      { text: "Customer Details" },
+      { text: "Add Customer" },
+      { text: "Edit Customer" },
+    ],
   },
   {
     icon: <RestIcon />,
     title: "Restaurants",
-    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
-    text: "Restaurants List",
-    text: "Restaurant Details",
-    text: "Add Restaurant",
-    text: "Edit Restaurant",
+    phara: [
+      { text: "Restaurants List" },
+      { text: "Restaurant Details" },
+      { text: "Add Restaurant" },
+      { text: "Edit Restaurant" },
+    ],
   },
   {
     icon: <DishIcon />,
     title: "Dishes",
-    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
-    text: "Dishes List",
-    text: "Dish Details",
-    text: "Add Dish",
-    text: "Edit Dish",
+    phara: [
+      { text: "Dishes List" },
+      { text: "Dish Details" },
+      { text: "Add Dish" },
+      { text: "Edit Dish" },
+    ],
   },
   {
     icon: <SelIcon />,
     title: "Sellers",
-    // phara: [{ text: "Orders List" }, { text: "Order Details" }],
-    text: "Sellers List",
-    text: "Seller Details",
-    text: "Add Seller",
-    text: "Edit Seller",
+    phara: [
+      { text: "Sellers List" },
+      { text: "Seller Details" },
+      { text: "Add Seller" },
+      { text: "Edit Seller" },
+    ],
   },
 ];
 export const cateData = [
@@ -210,4 +212,21 @@ export const orderData = [
     text: "order list",
   },
   { text: "order Details" },
+];
+export const selecterData = [
+  {
+    title: "Sort : ",
+    phara: [{ text: "Ascending" }, { text: "Descending" }],
+  },
+];
+export const selectData = [
+  {
+    title: "Status : ",
+    phara: [
+      { text: "All" },
+      { text: "Paid" },
+      { text: "Cancelled" },
+      { text: "Refunded" },
+    ],
+  },
 ];

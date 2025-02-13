@@ -36,16 +36,7 @@ function Sidebar() {
             <ul className="gap-1.5 flex flex-col">
               <Linker icon={<DashIcon />} text={"Dashboard"} />
               <Linker icon={<ManageIcon />} text={"Manage"} />
-              <Order />
-              {arrowData.map((item, index) => (
-                <Accordion
-                  key={index}
-                  classicon={item.class}
-                  icon={item.icon}
-                  title={item.title}
-                  text={item.text}
-                />
-              ))}
+              <Accordion />
 
               <Linker icon={<WalletIcon />} text={"Wallet"} />
             </ul>

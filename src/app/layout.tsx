@@ -35,7 +35,6 @@ export default function RootLayout({
 
           <div className="w-full lg:w-[calc(100%-259px)] !overflow-y-scroll no-scrollbar">
             <Navbar />
-            <Customselect />
             {children}
           </div>
         </div>

@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import { languageOptions, selecterData } from "../Helper/Helper";
+import { languageOptions, selectData, selecterData } from "../Helper/Helper";
 import { DownIcon } from "../Helper/Icon";
 
-function Customselect() {
+function Customslec() {
   const [isOpen, setIsOpen] = useState(false);
-  const [filtertype, setFiltertype] = useState("Ascending");
+  const [filtertype, setFiltertype] = useState("All");
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
@@ -16,10 +16,10 @@ function Customselect() {
 
   return (
     <>
-      {selecterData.map((item, index) => (
+      {selectData.map((item, index) => (
         <div
           key={index}
-          className="flex items-center py-3 px-5 bg-[#f1f5f9] cursor-pointer relative min-w-[179px] gap-1.5 rounded-md"
+          className="flex items-center py-3 px-5 bg-[#f1f5f9] cursor-pointer relative min-w-[129px]  gap-1 rounded-md"
           onClick={toggleDropdown}
         >
           <p className="text-[#334155]">{item.title}</p>
@@ -50,4 +50,4 @@ function Customselect() {
   );
 }
 
-export default Customselect;
+export default Customslec;
