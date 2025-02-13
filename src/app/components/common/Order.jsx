@@ -6,12 +6,7 @@ import { OrderIcon } from "../Helper/Icon";
 function Order() {
   return (
     <div>
-      <Accordion
-        icon={<OrderIcon />}
-        title={"Order"}
-        text={"order list"}
-        // text={"order Detail"}
-      />
+      <Accordion icon={<OrderIcon />} title={"Order"} text={"order Detail"} />
     </div>
   );
 }

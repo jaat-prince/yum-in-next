@@ -11,7 +11,7 @@ function Table() {
           <div class="flex flex-wrap items-center gap-4 sm:justify-between lg:flex-nowrap">
             <h2 class="text-xl font-semibold text-[#1e293b]">Recent Orders</h2>
             <div class="flex flex-wrap items-center justify-end gap-2">
-              <div class="hs-dropdown relative inline-flex">
+              <div class="inline-flex">
                 <button
                   type="button"
                   class="flex items-center gap-2 rounded-md px-4 py-3 text-sm font-medium text-[#334155] transition-all xl:px-5 bg-[#f1f5f9]"
